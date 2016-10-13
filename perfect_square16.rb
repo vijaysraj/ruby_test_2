@@ -1,6 +1,6 @@
 n=gets.to_i
-if(sqrt(n)==n)
+if(Math.sqrt(n)%1==0)
 	puts "perfect square"
 else
-	puts "not"
+	puts "not a perfect square"
 end

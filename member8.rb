@@ -10,12 +10,12 @@ end
 class Employee
 	def details
 		puts "Rahul"
-		puts "28"
-		puts "1234455"
+		puts "30"
+		puts "1223445"
 		puts "hebbal"
 	end
 	def printSalary
-		puts "15000"
+		puts "20000"
 	end
 	def specification
 		puts "developer"
@@ -29,11 +29,11 @@ class Manager
 	def details
 		puts "Gopal"
 		puts "42"
-		puts "123445522"
+		puts "78954444112"
 		puts "hebbal"
 	end
 	def printSalary
-			puts "223000"
+		puts "50000"
 	end
 	def specification
 		puts "sales"
@@ -50,8 +50,8 @@ m.printSalary(e)
 e.specification
 e.department
 puts "\n"
-f=Manager.new
-m.details(f)
-m.printSalary(f)
-f.specification
-f.department
+p=Manager.new
+m.details(p)
+m.printSalary(p)
+p.specification
+p.department

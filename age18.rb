@@ -1,6 +1,6 @@
+age = 2
 begin
-	age=12
-	age=s
-rescue
-	"age cant be string"
+	age
+raise TypeError, 'Age must be a Fixnum' if age.class != Fixnum
+
 end
