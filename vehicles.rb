@@ -1,8 +1,6 @@
- vehicles = {:Dio => 'Two-wheeler', 
- 			:Bajaj_Pulsar => 'Two-wheeler',
- 			:Honda_Activa => 'Two-wheeler',
- 			:Tata_Indica => 'Four-wheeler',
- 			:Hundai_Verna => 'Four-wheeler'}
+ vehicles = { :two_wheeler => ["yamaha","bajaj"], :four_wheeler => ["hundai","ford"]}
 
  		puts "Keys : "
  		vehicles.each{|key,value| p key}
+ 		puts "Values : "
+ 		vehicles.each{|key,value| puts value}
