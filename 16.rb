@@ -15,4 +15,4 @@ else
 	puts "not"
 	end 
 end
-perfect_squares(66)
+perfect_squares(121)
