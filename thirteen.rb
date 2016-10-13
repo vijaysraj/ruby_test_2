@@ -1,0 +1,1 @@
+puts "Area of the circle with Diameter 18 units is #{18*22/7} square units"

@@ -19,32 +19,32 @@ snowy_owl = { "type"=>"Bird", "diet"=>"Carnivore", "life_span"=>"10 years" }
 7. numbers = [1, 2, 3, 4]
 Sum all the elements in the numbers array.
 8. Create a class named 'Member' having the following members:
-a. Data members - Name, Age, Phone number, Address
-b. It also has a method named 'printSalary' which prints the salary of the members.
-c. Two classes 'Employee' and 'Manager' which has the properties of 'Member'
-class. The 'Employee' and 'Manager' classes have data members 'specialization'
-and 'department' respectively. Now, assign name, age, phone number, address
-and salary to an employee and a manager by making an object of both of these
-classes and print the same.
+	a. Data members - Name, Age, Phone number, Address
+	b. It also has a method named 'printSalary' which prints the salary of the members.
+	c. Two classes 'Employee' and 'Manager' which has the properties of 'Member'
+	class. The 'Employee' and 'Manager' classes have data members 'specialization'
+	and 'department' respectively. Now, assign name, age, phone number, address
+	and salary to an employee and a manager by making an object of both of these
+	classes and print the same.
 9. Create a class named ‘Player’ having the following details about the cricket player:
-a. Data members - Name, Age, Matches Played, Player Type
-b. It has a method named ‘playerDetails’ which prints the details of the cricket
-player.
-c. Three classes ‘Batsman’ and ‘Bowler’ has the properties of 'Player' class. The
-'Batsman' has a data member ‘runsScored’ and ‘Bowler’ has a data member
-‘wicketsTaken’. Now, assign name, age, matches played, player type to Bowler
-and Batsman and print the same. If the player is a ‘Batsman’ then add the data
-model ‘runsScored’ and if the player is ‘Bowler’ then add the data model
-‘wicketsTaken’ and print the same.
+	a. Data members - Name, Age, Matches Played, Player Type
+	b. It has a method named ‘playerDetails’ which prints the details of the cricket
+	player.
+	c. Three classes ‘Batsman’ and ‘Bowler’ has the properties of 'Player' class. The
+	'Batsman' has a data member ‘runsScored’ and ‘Bowler’ has a data member
+	‘wicketsTaken’. Now, assign name, age, matches played, player type to Bowler
+	and Batsman and print the same. If the player is a ‘Batsman’ then add the data
+	model ‘runsScored’ and if the player is ‘Bowler’ then add the data model
+	‘wicketsTaken’ and print the same.
 10. Create a file called parse.json and create a json(should be big).
-a. Read/Parse the contents.
-b. Iterate and display the output.
+	a. Read/Parse the contents.
+	b. Iterate and display the output.
 11. Build a code around this example of a news channel
-a. Journalist finds the information he/she only knows from where he/she sourced
-this information. Source is protected
-b. The public is only aware of the news, and the source is hidden.
+	a. Journalist finds the information he/she only knows from where he/she sourced
+	this information. Source is protected
+	b. The public is only aware of the news, and the source is hidden.
 12. Build a code around this example of Twins
-a. Twins look the same but they showcase or hold different characteristics.
+	a. Twins look the same but they showcase or hold different characteristics.
 13. Write a ruby code in-order to determine the area of the circle whose diameter is 18 units.
 14. Convert all the elements of an array to a single string.
 ["Too", "Weird", "To", "Live,", "Too", "Rare", "To", "Die"]
