@@ -3,18 +3,29 @@ class Journalist
 		puts "This is the news"
 	end
 
-	protected
+	def know_source
+		source
+	end
+
+	private
 	def source
 		puts "This is the source of the news"
 	end
 end
 
-class Public < News
-	
+class Public < Journalist
+	def find_news
+		news		
+	end
+
+	def find_source
+		puts "Public cannot know the source"
+		a = Public.new
+		a.source
+	end
 end
 
-journalist = Journalist.new
 publicc = Public.new
-publicc.news
-publicc.source
-journalist.source
+publicc.find_news
+publicc.find_source
+

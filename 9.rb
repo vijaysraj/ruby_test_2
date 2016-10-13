@@ -34,7 +34,9 @@ batsmen.name = 'virat'
 batsmen.age  = '26'
 batsmen.matches_played = '150'
 batsmen.player_type = 'Batsmen'
-batsmen.runs_scored = '7000'
+if batsmen.player_type == 'Batsmen'
+	batsmen.runs_scored = '7000'
+end
 batsmen.player_details
 
 bowler = Bowler.new
@@ -43,5 +45,7 @@ bowler.name = 'Ashwin'
 bowler.age  = '28'
 bowler.matches_played = '180'
 bowler.player_type = 'Bowler'
-bowler.wickets_taken = '200'
+if bowler.player_type == 'Bowler'
+	bowler.wickets_taken = '200'
+end
 bowler.player_details
