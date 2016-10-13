@@ -9,12 +9,16 @@
 
 
 class Member
+	# attr_accessor :Name, :Age, :Phonenumber, :Address
+
+	# def initialize params 
  	
-# 	@Name=Name
-# 	@Age =Age
-# 	# @Phone number=Phone number
-# 	@Address=Address
-# # end
+	# @name = params[:Name]
+ #    @age = params[:Age]
+ #    @phonenumber = params[:Phonenumber]
+ #    @address=params[:Address]
+
+ # end
 	def printSalary(salary)
 		@salary=salary
 		puts @salary
@@ -47,7 +51,7 @@ class Member
 
 
 	e=Employee.new
-	e.employee("sunil","22","7456986312","mysore")
+	e.employee("sunil","22","9985632174","mysore")
 	e.printSalary("10000")
 	m=Manager.new
 	m.manager("Ankitha","22","9963528912","bangalore")
