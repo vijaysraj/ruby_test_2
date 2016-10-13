@@ -6,7 +6,7 @@
 a="10"
 b=10
 begin
-puts a + b
+	puts a + b
 rescue Exception =>e
 	puts e.message
 end
@@ -16,7 +16,7 @@ end
 a="10".to_i
 b=10
 begin
-puts a + b
+	puts a + b
 rescue Exception =>e
 	puts e.message
 end

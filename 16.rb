@@ -1,3 +1,5 @@
+# 16. Write a ruby code to determine whether any given number is a perfect square.
+
 puts "Enter the number"
 num=gets.delete("\n").to_i
 a = Math.sqrt(num)
