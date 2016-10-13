@@ -1,0 +1,63 @@
+1. Let's say I have an array as shown below
+	a. array = ["98", "10", "1", "22", "8", "4", "67", "109"]
+	b. Sort them, so that we get to see them in ascending and descending order.
+2. Define a hash called 'vehicles' that has both two wheelers and four wheelers.
+	a. two_wheelers should contain different brand names
+	b. four_wheelers should contain different brand names
+	c. Display all the keys in the hash.
+3. Define a method called silly_check() that takes a number argument and returns "The
+number is less than 5" if the argument is less than 5 and "The number is greater than or
+equal to 5" otherwise.
+4. Add a method to_fahrenheit() to the Celsius class that converts the Celsius temperature to
+Fahrenheit. The formula to convert Celsius to Fahrenheit is the temperature in Celsius times
+1.8 plus 32. Hint : (temperature in Celsius * 1.8 plus 32 = temperature in Fahrenheit ).
+5. colors = ['red', 'violet', 'blue']
+Use the colors array to construct the following array:
+[['red', 1], ['violet', 2], ['blue', 3]]
+6. Return all the keys for the below hash:
+snowy_owl = { "type"=>"Bird", "diet"=>"Carnivore", "life_span"=>"10 years" }
+7. numbers = [1, 2, 3, 4]
+Sum all the elements in the numbers array.
+8. Create a class named 'Member' having the following members:
+a. Data members - Name, Age, Phone number, Address
+b. It also has a method named 'printSalary' which prints the salary of the members.
+c. Two classes 'Employee' and 'Manager' which has the properties of 'Member'
+class. The 'Employee' and 'Manager' classes have data members 'specialization'
+and 'department' respectively. Now, assign name, age, phone number, address
+and salary to an employee and a manager by making an object of both of these
+classes and print the same.
+9. Create a class named ‘Player’ having the following details about the cricket player:
+a. Data members - Name, Age, Matches Played, Player Type
+b. It has a method named ‘playerDetails’ which prints the details of the cricket
+player.
+c. Three classes ‘Batsman’ and ‘Bowler’ has the properties of 'Player' class. The
+'Batsman' has a data member ‘runsScored’ and ‘Bowler’ has a data member
+‘wicketsTaken’. Now, assign name, age, matches played, player type to Bowler
+and Batsman and print the same. If the player is a ‘Batsman’ then add the data
+model ‘runsScored’ and if the player is ‘Bowler’ then add the data model
+‘wicketsTaken’ and print the same.
+10. Create a file called parse.json and create a json(should be big).
+a. Read/Parse the contents.
+b. Iterate and display the output.
+11. Build a code around this example of a news channel
+a. Journalist finds the information he/she only knows from where he/she sourced
+this information. Source is protected
+b. The public is only aware of the news, and the source is hidden.
+12. Build a code around this example of Twins
+a. Twins look the same but they showcase or hold different characteristics.
+13. Write a ruby code in-order to determine the area of the circle whose diameter is 18 units.
+14. Convert all the elements of an array to a single string.
+["Too", "Weird", "To", "Live,", "Too", "Rare", "To", "Die"]
+15. Define a method that multiplies two numbers together.
+16. Write a ruby code to determine whether any given number is a perfect square.
+17. blockbusters = [['will smith', 'i am legend'], ['brad pitt', 'fight club'], ['frodo', 'the hobbit']]
+Use the blockbusters array to construct the following hash:
+{"will smith" => "i am legend", "brad pitt" => "fight club", "frodo" => "the hobbit"}
+18. Raise a TypeError:
+Age must be a Fixnum. Check for this, if it is not, throw a TypeError.
+19. Write a ruby code to produce the following error:
+	a. “Could not add variables a (string) and b (Fixnum)”
+	b. Find the right solution.
+20. Write a code, to define a list of elements and implement ​ search,​ to find if the element is
+present and if the element is present in the left part of the list, display a message that
+says “Element is in the left part” and if the element is in the right part of the list, display a message that says “Element is in the right part”.
