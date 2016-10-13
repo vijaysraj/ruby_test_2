@@ -9,16 +9,16 @@
 
 
 class Member
-	# attr_accessor :Name, :Age, :Phonenumber, :Address
+	attr_accessor :name, :age, :phonenumber, :address
 
-	# def initialize params 
+	def initialize (name,age,phonenumber,ddress)
  	
-	# @name = params[:Name]
- #    @age = params[:Age]
- #    @phonenumber = params[:Phonenumber]
- #    @address=params[:Address]
+	@name = name
+    @age = age
+    @phonenumber = phonenumber
+    @address=address
 
- # end
+ end
 	def printSalary(salary)
 		@salary=salary
 		puts @salary
@@ -26,33 +26,36 @@ class Member
 	end
 
 	class Employee<Member
-		puts specialization="software developer"
-		def employee(x,y,z,p)
-			@name=x
-			@age=y
-			@phonenumber=z
-			@address=p
-			puts @age
-			puts @name
-			puts @phonenumber
-			puts @address
-			puts @salary
-		# puts "Employee details->#{@name},#{@age},#{@phone number},#{@address},#{@salary}"
+		attr_accessor :specialization
+		def m3(specialization)
+			puts specialization
+		end
+		
+		def employee
+			
+		puts "Employee details->#{@name},#{@age},#{@phonenumber},#{@address}"
 	end
+	puts @salary
 	end
 
 	class Manager<Member
-		puts department="human resourse"
-		def manager(name,age,phonenumber,address)
-		puts "Manager details->#{name},#{age},#{phonenumber},#{address}"
+		attr_accessor :department
+		def m2(department)
+			puts department
+			
+		end
+		def manager
+		puts "Manager details->#{@name},#{@age},#{@phonenumber},#{@address}"
 	    end
 	    puts @salary
 	end
 
 
-	e=Employee.new
-	e.employee("sunil","22","9985632174","mysore")
+	e=Employee.new("sunil","22","9985632174","mysore")
+	e.m3("engineer")
+	e.employee
 	e.printSalary("10000")
-	m=Manager.new
-	m.manager("Ankitha","22","9963528912","bangalore")
+	m=Manager.new("Ankitha","22","9963528912","bangalore")
+	m.m2("human resource")
+	m.manager
 	m.printSalary("20000")

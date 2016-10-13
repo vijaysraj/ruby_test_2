@@ -3,9 +3,10 @@
 # equal to 5" otherwise.
 
 class A
-def silly_check(x)
-	a=x.to_i
-	if a<5
+def silly_check
+	puts "Enter the number"
+		num = gets.to_i
+	if num<5
 		puts "the number is less than 5"
 	else
 		puts "The number is greater than or
@@ -15,5 +16,5 @@ end
 end
 
 a=A.new
-a.silly_check("10")
+a.silly_check
 
