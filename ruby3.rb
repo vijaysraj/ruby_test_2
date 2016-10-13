@@ -5,7 +5,7 @@
 
 
 class Number_check
-	def check(a)
+	def silly_check(a)
 		if a<5
 			puts "The number is less than five"
 		else
@@ -16,4 +16,4 @@ end
 puts "Enter a number to check if lesser than 5 or not"
 b=gets.to_i
 x=Number_check.new
-x.check(b)
+x.silly_check(b)

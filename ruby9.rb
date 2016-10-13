@@ -23,9 +23,9 @@ class Player
 		puts "Name->#{@name}"
 		puts "age->#{@age}"
 		puts "matches played->#{@matches}"
-		if @playertype="batsman"
+		if @playertype == "batsman"
 			puts "Runs scored->#{a}"
-		elsif @playertype="bowler"
+		elsif @playertype == "bowler"
 			puts "Wickets taken->#{a}"
 		end
 	end

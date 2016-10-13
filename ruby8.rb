@@ -8,12 +8,12 @@
 # classes and print the same.
 
 class Member
-	# def initialize()
-	# 	@name=name
-	# 	@age=age
-	# 	@phnum=phnum
-	# 	@address=address
-	# end
+	def initialize(name,age,phnum,address)
+		@name=name
+		@age=age
+		@phnum=phnum
+		@address=address
+	end
 	
 	def print_salary(salary)
 		
@@ -21,12 +21,12 @@ class Member
 		puts ""
 	end
 
-	def details(name,age,phnum,address)
-	puts "Name->#{name}"
-		puts "Age->#{age}"
-		puts "phnum->#{phnum}"
-		puts "address->#{address}"
-	def
+	def details
+	puts "Name->#{@name}"
+		puts "Age->#{@age}"
+		puts "phnum->#{@phnum}"
+		puts "address->#{@address}"
+	end
 
 end
 class Employee<Member
@@ -34,12 +34,13 @@ class Employee<Member
 end
 
 class Manager<Member
-end
 
+end
+x=Member.new("kumar","25","1010101010","Mysore")
 x=Employee.new
-# a=Employee.new
 x.print_salary("25000")
-x.details("kumar","25","1010101010","Mysore")
+x.details
+y=Member.new("Ramesh","29","0000111101","Banglore")
 y=Manager.new
 y.print_salary("35000")
-y.details("Ramesh","29","0000111101","Banglore")
+y.details
