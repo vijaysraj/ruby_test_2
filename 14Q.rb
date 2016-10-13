@@ -1,2 +1,3 @@
 array=["Too", "Weird", "To", "Live,", "Too", "Rare", "To", "Die"]
-puts array.join(' ')
+string = array.join(' ')
+puts string
