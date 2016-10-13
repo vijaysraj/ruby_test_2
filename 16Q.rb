@@ -1,14 +1,18 @@
 puts "enter a number to check perfect square"
 num=gets.to_i
+a=0
 (1..num).each do |i|
 	if num==i*i
-		return a=true
+		a=true
+		break
+	
 	else
-		return a=false
+		a =	false
 	end	
+
 end
-if a
-	puts "perfect"
-else 
-	puts "not perfect"
+if a==true
+	puts "is a perfect square"
+	else
+	puts "not perfect square"
 end
