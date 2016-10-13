@@ -1,4 +1,9 @@
 class Member
+
+		# attr_accessor :name
+		# attr_accessor :age
+		# attr_accessor :phone
+		# attr_accessor :address
 	def initialize(name,age,phonenumber,address)
 		@Name=name
 		@Age=age
@@ -42,6 +47,7 @@ end
 e=Employee.new("Manasa","27","9983652884","#1122 R-K road Hubli")
 e.details
 e.printSalary("12Kpa")
+puts "---------------------------------------------------------------"
 m=Manager.new("Navaneeth","37","9847736283","#0049 B-H road Mysore")
 m.details
 m.printSalary("19Kpa")

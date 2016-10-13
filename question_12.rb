@@ -38,6 +38,7 @@ p "Twin1 with follwing charesters"
 t1 = Twin1.new
 t.hair_pattern(t1)
 t.face_complexion(t1)
+puts "========================================================================="
 p "Twin2 with follwing charesters"
 t2 = Twin2.new
 t.hair_pattern(t2)

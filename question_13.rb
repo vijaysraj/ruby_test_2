@@ -3,7 +3,7 @@ class Area
 		diameter = 18
 		puts "Area of a circle for diameter #{diameter} is"
 		radius = diameter/2
-		area = 3.14 * radius *radius
+		area = Math::PI * radius *radius
 		puts "#{area}"
 	end
 end
