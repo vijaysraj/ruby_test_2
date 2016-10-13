@@ -6,4 +6,4 @@ class Circle
 	end
 end
 c=Circle.new
-c.Area(20)
+c.Area(18)
