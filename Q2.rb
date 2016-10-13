@@ -16,18 +16,12 @@ ob=Hashes.new()
 ob.meth1
 
 
-class Hashes1
-	def meth2
-		vehicles = {"Bajaj-Pulsa" => "two_wheeler", "Hero-ZMR" => "two_wheeler", 
-							"Tvs-Apache" => "two_wheeler" ,"Maruthi-800" => "four_wheeler", 
-						"Ford-Fiesta" => "four_wheeler", "Toyota-Innova" => "four_wheeler"}
 
-	  puts "The key values of Hash2:-"
+vehicles2 = { two_wheelers: ['honda','bajaj','ktm'],
+			 four_wheelers: ['maruti','hyundai','toyota']
 
-   	 for key in vehicles.keys()
-    	print key, "\n"
-		end
-	end
+}
+puts "The key value"
+vehicles2.select do |k,v|
+	puts k
 end
-ob=Hashes1.new()
-ob.meth2
